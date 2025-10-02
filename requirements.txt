@@ -1,7 +1,8 @@
-requests
-pandas
-simplejson
-numpy
-pyyaml
-influxdb
-boto3
+# Updated for InfluxDB 2.x migration - 2025-10-02
+requests>=2.31.0
+pandas>=2.0.0
+simplejson>=3.19.0
+numpy>=1.24.0
+pyyaml>=6.0.0
+influxdb-client>=1.38.0  # InfluxDB 2.x client (replaces influxdb)
+boto3>=1.28.0
